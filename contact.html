@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flor Delicious</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/custom.css" rel="stylesheet">-->
+    <script src="js/respond.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--row 0:navigation-->
+    <div class="row">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="dropdown"><a href="#" data-toggle="dropdown">Our Store<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="fruit.html">Fruit Arrangements</a></li>
+                <li><a href="candy.html">Candy Bouquets</a></li>
+                <li><a href="deodorant.html">All-natural Skin Care</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- row 1 -->
+    <header class="row">
+      <div class="col-lg-7 col-md-8 col-sm-7">
+        <h1>Flor Delicious</h1>
+        <ul class="header-description">
+          <li><h3>Candy Bouquets and Fruit Arrangements for any occasion.</h3></li>
+          <li><h3>All-natural organic skin care products.</h3></li>
+        </ul>
+      </div>
+      <div class="col-lg-5 col-md-4 col-sm-4 col-xs-5">
+        <a href="#"><img src="img/flower-logo.png" alt="Flor Delicious. Click for home." class="img-responsive"></a>
+      </div>
+    </header>
+
+    <!--row 2 -->
+    <ol class="breadcrumb">
+      <li> <a href="index.html">Home</a></li>
+      <li class="active">Contact Us</li>
+    </ol>
+
+    <!--row 3 -->
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+
+      <div class="container">
+      <header class="row">
+        <div class="col-sm-12">
+            <h1>Contact Us To Place Your Order</h1>
+        </div>
+      </header>
+      <form>
+         <div class="row">
+        <div class="col-sm-6 form-group">
+        <label for="name" class="control-label">Your name: <span class="glyphicon glyphicon-star"></span></label>
+        <input type="text" id="name" class="form-control">
+        </div>
+
+        <div class="col-sm-6 form-group">
+             <label for="email" class="control-label">Your email:</label>
+             <input type="text" id="email" class="form-control">
+        </div>
+         </div>
+
+         <div class="row">
+            <div class="col-sm-6 form-group">
+          <label for="searchengine" class="control-label">Please select category for your order:</label>
+          <select id="searchengine" class="form-control">
+            <option checked>Please select one:</option>
+            <option value="google">Candy Bouquets</option>
+            <option value="yahoo">Fruit Arrangements</option>
+            <option value="bing">All-natural skin care</option>
+            <option value="other">Other</option>          
+          </select>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-12 form-group">
+          <label for="comments" class="control-label">Your comments:</label>
+          <textarea id="comments" class="form-control"></textarea>
+            </div>
+         </div>
+        <button name="submit" type="submit" class="btn btn-danger btn-lg">Submit</button>
+      </form>
+
+      </div>
+
+  <!-- row 4 -->
+  <footer class="row">
+      <p><small>Copyright by Flor Delicious. All rights reserved.</small></p>
+  </footer>
+
+
+</div> <!--closing the container tag-->
+  <!-- javascript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
