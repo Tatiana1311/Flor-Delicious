@@ -46,7 +46,7 @@ $('h1').fadeOut(2000).fadeIn(3000);
 			$('.name-group .help-block-name').text('Please enter your name.');
 			$('.name-group').attr(
 			{
-				class: 'help-block-name has-error'
+				class: 'control-group name-group help-block-name has-error'
 		    }); // end attr
 		} 
 		else 
@@ -54,7 +54,7 @@ $('h1').fadeOut(2000).fadeIn(3000);
 			$('.name-group .help-block-name').text('');
 			$('.name-group').attr(
 			{
-				class: 'controls name-group'
+				class: 'control-group name-group'
 			}); //end attr
 		}
 	}); //end focus out
